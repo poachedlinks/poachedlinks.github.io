@@ -8,5 +8,5 @@ draft: true
 
 ![big o mouse](/static/egg.png)
 
-this is the best mouse
+this is the best mouse ever
 
