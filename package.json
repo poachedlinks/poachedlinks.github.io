@@ -1,0 +1,23 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poachedlinks/poachedlinks.github.io.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/poachedlinks/poachedlinks.github.io/issues"
+  },
+  "homepage": "https://github.com/poachedlinks/poachedlinks.github.io#readme",
+  "dependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-react": "^7.14.5"
+  }
+}
