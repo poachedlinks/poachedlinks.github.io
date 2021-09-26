@@ -4,14 +4,43 @@
 {{ range $data.items }}
 {{ $item := . }}
 
-[![$item.name]({{ $item.image | absURL }})]({{ $item.url }})
-# [{{ $item.name }}]({{ $item.url }})
-{{ $item.desc }}
-
-{{ range $item.bullets }}
-{{ $bullet := . }}
-* {{ $bullet }}
+<a href="{{ $item.url }}"><h2>{{ $item.name }}</h2></a>
+<h3>{{ $item.headline }}</h3>
+<div class="product-wrapper">
+    <a href="{{ $item.url }}" class="product-img">
+        <img src="{{ $item.image | absURL }}"/>
+    </a>
+    <div class="product-desc">
+        <h3 class="product-headline">{{ $item.name }}</h3>
+        <div class="product-spacer"></div>
+        <div class="product-stars">
+            <div>
+                {{ range after 0 (seq $item.rating.stars)}}
+                <span class="fa fa-star checked product-star"></span>
+                {{ end }}
+    
+                {{ range after 0 (seq (sub 5 $item.rating.stars))}}
+                <span class="fa fa-star-o product-star-o"></span>
+                {{ end }}
+            </div>
+        </div>
+        <a href="{{ $item.url }}" class="product-cta">
+            <div>
+                See on {{ $item.site }} <span class="fa fa-arrow-right"></span>
+            </div>
+        </a>
+    </div>
+</div><br/>
+{{ range $item.desc }}
+{{ $desc := . }}
+<p>{{ $desc }}</p>
 {{ end }}
+<ul>
+    {{ range $item.bullets }}
+    {{ $bullet := . }}
+    <li>{{ $bullet }}</li>
+    {{ end }}
+</ul>
 
 {{ end }}
 {{ end }}

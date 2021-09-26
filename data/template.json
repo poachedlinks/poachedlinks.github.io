@@ -1,0 +1,19 @@
+{
+    "items": [
+        {
+            "name": "product name",
+            "headline": "catchy",
+            "url": "affiliate link",
+            "image": "url to image",
+            "desc": "wtv",
+            "bullets": [
+                "High-precision 6400 DPI optical sensor",
+                "Customizable Chroma RGB color profiles: includes 16. 8 million color combinations",
+                "Quick DPI toggle for FPS gaming: instant sniping"
+            ],
+            "specs": {
+                "Thing": "spec"
+            }
+        }
+    ]
+}
