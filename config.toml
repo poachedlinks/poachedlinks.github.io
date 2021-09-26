@@ -1,4 +1,4 @@
-baseURL = 'https://poachedlinks.github.io/'
+baseURL = 'https://www.poachedlinks.com/'
 languageCode = 'en-us'
 title = 'Poached Links'
 theme = 'papermod'
