@@ -1,32 +1,59 @@
 {
     "items": [
-        {
-            "site": "Ebay",
-            "name": "Razer Basilisk",
-            "headline": "dfsdfsdf",
-            "rating": {
-                "stars": 5,
-                "number": 7
-            },
-            "url": "https://www.ebay.com/itm/392370172516?epid=26026322535&hash=item5b5b15b264:g:rMYAAOSwn2ldb4FJ&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5338838541&customid=&toolid=10001&mkevt=1",
-            "image": "https://i.ebayimg.com/images/g/rMYAAOSwn2ldb4FJ/s-l1600.jpg",
-            "desc": [
-                "Essentially the same experience as the popular Razer Basilisk.",
-                "Essentially the same experience as the popular Razer Basilisk."
-            ],
-            "bullets": [
-                "High-precision 6400 DPI optical sensor",
-                "Customizable Chroma RGB color profiles: includes 16. 8 million color combinations",
-                "Quick DPI toggle for FPS gaming: instant sniping"
-            ],
-            "specs": {
-                "Sensor": "Optical",
-                "Sensitivity": "",
-                "Shape": "Right-handed",
-                "Buttons": "7",
-                "Connection": "Wired",
-                "Weight": "95g"
-            }
-        }
-    ]
+{
+    "site": "Ebay", 
+    "name": "Razer Basilisk",
+    "headline": "Best FPS Gaming Mouse on a Budget",
+    "rating": {
+        "stars": 5,
+        "number": 7
+    },
+    "url": "https://www.ebay.com/itm/392370172516?epid=26026322535&hash=item5b5b15b264:g:rMYAAOSwn2ldb4FJ&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5338838541&customid=&toolid=10001&mkevt=1",
+    "image": "https://i.ebayimg.com/images/g/rMYAAOSwn2ldb4FJ/s-l1600.jpg",
+    "desc": [
+        "Essentially the same experience as the popular Razer Basilisk.",
+        "Essentially the same experience as the popular Razer Basilisk."
+    ],
+    "bullets": [
+        "High-precision 6400 DPI optical sensor",
+        "Customizable Chroma RGB color profiles: includes 16. 8 million color combinations",
+        "Quick DPI toggle for FPS gaming: instant sniping"
+    ],
+    "specs": {
+        "Sensor": "Optical",
+        "Sensitivity": "",
+        "Shape": "Right-handed",
+        "Buttons": "7",
+        "Connection": "Wired",
+        "Weight": "95g"
+    }
+},
+{
+    "site": "Ebay", 
+    "name": "HyperX Pulsefire FPS Pro",
+    "headline": "Best FPS Gaming Mouse on a Budget",
+    "rating": {
+        "stars": 5,
+        "number": 7
+    },
+    "url": "https://www.ebay.com/itm/324003367555?epid=11023793547&hash=item4b701b0a83:g:be4AAOSwADVd6Uy4&mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5338838541&customid=&toolid=10001&mkevt=1",
+    "image": "https://i.ebayimg.com/images/g/3IYAAOSwm1dd6Uy2/s-l1600.jpg",
+    "desc": [
+        "Essentially the same experience as the popular Razer Basilisk.",
+        "Essentially the same experience as the popular Razer Basilisk."
+    ],
+    "bullets": [
+        "High-precision 6400 DPI optical sensor",
+        "Customizable Chroma RGB color profiles: includes 16. 8 million color combinations",
+        "Quick DPI toggle for FPS gaming: instant sniping"
+    ],
+    "specs": {
+        "Sensor": "Optical",
+        "Sensitivity": "",
+        "Shape": "Right-handed",
+        "Buttons": "7",
+        "Connection": "Wired",
+        "Weight": "95g"
+    }
 }
+]}
