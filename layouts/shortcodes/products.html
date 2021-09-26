@@ -1,0 +1,17 @@
+{{ with .Get "url" }}
+{{ $url := . }}
+{{ $data := getJSON $url }}
+{{ range $data.items }}
+{{ $item := . }}
+
+[![$item.name]({{ $item.image | absURL }})]({{ $item.url }})
+# [{{ $item.name }}]({{ $item.url }})
+{{ $item.desc }}
+
+{{ range $item.bullets }}
+{{ $bullet := . }}
+* {{ $bullet }}
+{{ end }}
+
+{{ end }}
+{{ end }}
